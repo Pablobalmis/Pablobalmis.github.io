@@ -25,7 +25,6 @@ section
     float: right;
     width: 920px;
     height: 760px;
-    border: 0%;
     padding-top: 20px;
     padding-right: 20px;
 }
@@ -49,7 +48,7 @@ nav ul
 {
     display:flex;
     list-style: none;
-    font: verdana;
+    font-family: verdana;
     font-size: 20px;
     justify-content: space-around;
 }

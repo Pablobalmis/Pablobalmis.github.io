@@ -71,7 +71,7 @@ nav ul
 {
     display:flex;
     list-style: none;
-    font: verdana;
+    font-family: verdana;
     font-size: 20px;
     justify-content: space-around;
 }
