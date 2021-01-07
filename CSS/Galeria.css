@@ -89,4 +89,12 @@ footer p
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}	
+.imagen:hover 
+{
+    filter: none;
+}
+.imagen
+{
+    filter: grayscale(80%);
 }
