@@ -10,11 +10,11 @@ function LoadLDoc(fichero, tipo)
             if(tipo == "xml")
             {
                 leerXML(http.responseXML);
-            }
+            }/*
             else
             {
                 leerTXT(http.responseTXT);
-            }
+            }*/
         }
     })
 }
