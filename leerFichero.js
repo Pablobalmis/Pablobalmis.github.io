@@ -1,5 +1,6 @@
 LoadLDocA("libros.xml", "xml");
 function leerXML(fichero)
 {
-    alert(fichero);
+    let main = document.querySelector("main");
+    main.innerText(fichero);
 }
