@@ -4,7 +4,7 @@
 		<nombre>80 Mundos</nombre>
 		<libro> 
 			<ISBN>84-350-0202-0</ISBN> 
-			<titulo>El Seï¿½or de los Anillos - La Comunidad del Anillo</titulo> 
+			<titulo>El SeÃ±or de los Anillos - La Comunidad del Anillo</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>JRR Tolkien</autor>
@@ -12,11 +12,11 @@
 			<editorial>Minotauro</editorial>
 			<fechaPublicacion>1970</fechaPublicacion> 
 			<paginaWeb>www.lacomunidaddelanillo.com</paginaWeb>
-			<precio moneda="¤">20</precio>
+			<precio moneda="ï¿½">20</precio>
 		</libro>
 		<libro> 
 			<ISBN>84-350-0202-5</ISBN> 
-			<titulo>El Seï¿½or de los Anillos - Las dos torres</titulo> 
+			<titulo>El SeÃ±or de los Anillos - Las dos torres</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>JRR Tolkien</autor>
@@ -24,11 +24,11 @@
 			<editorial>Minotauro</editorial>
 			<fechaPublicacion>1972</fechaPublicacion> 
 			<paginaWeb>www.lasdostorres.com</paginaWeb>
-			<precio moneda="¤">22</precio>
+			<precio moneda="ï¿½">22</precio>
 		</libro>
 		<libro> 
 			<ISBN>84-350-0202-9</ISBN> 
-			<titulo>El Seï¿½or de los Anillos - El retorno del rey</titulo> 
+			<titulo>El SeÃ±or de los Anillos - El retorno del rey</titulo> 
 			<nivelProfundidad>avanzado</nivelProfundidad>
 			<autores>
 				<autor>JRR Tolkien</autor>
@@ -36,7 +36,7 @@
 			<editorial>Minotauro</editorial>
 			<fechaPublicacion>1975</fechaPublicacion> 
 			<paginaWeb>www.elretornodelrey.com</paginaWeb>
-			<precio moneda="¤">25</precio>
+			<precio moneda="ï¿½">25</precio>
 		</libro>
 	</libreria>
 	<libreria>
@@ -51,7 +51,7 @@
 			<editorial>SALAMANDRA PUBLICACIONES Y EDICIONES, S.A.</editorial>
 			<fechaPublicacion>1997</fechaPublicacion> 
 			<paginaWeb>www.harrypotterlapiedrafilosofal.com</paginaWeb>
-			<precio moneda="¤">27</precio>
+			<precio moneda="ï¿½">27</precio>
 		</libro>
 		<libro> 
 			<ISBN>84-350-0203-2</ISBN> 
@@ -63,7 +63,7 @@
 			<editorial>SALAMANDRA PUBLICACIONES Y EDICIONES, S.A.</editorial>
 			<fechaPublicacion>1998</fechaPublicacion> 
 			<paginaWeb>www.harrypotterlacamarasecreta.com</paginaWeb>
-			<precio moneda="¤">26</precio>
+			<precio moneda="ï¿½">26</precio>
 		</libro>
 		<libro> 
 			<ISBN>84-350-0203-3</ISBN> 
@@ -75,7 +75,7 @@
 			<editorial>SALAMANDRA PUBLICACIONES Y EDICIONES, S.A.</editorial>
 			<fechaPublicacion>1999</fechaPublicacion> 
 			<paginaWeb>www.harrypotterelprisionerodeazkaban.com</paginaWeb>
-			<precio moneda="¤">30</precio>
+			<precio moneda="ï¿½">30</precio>
 		</libro>
 	</libreria>
 </busquedaLibros>
