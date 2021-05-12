@@ -1,0 +1,8 @@
+.tabla
+{
+    display: table;
+}
+.fila
+{
+    display: table-row;
+}
