@@ -1,14 +1,5 @@
-function leerXMl()
+LoadLDocA("libros.xml", "xml");
+function leerXML(fichero)
 {
-if (window.XMLHttpRequest)
-  {
-  xhttp=new XMLHttpRequest();
-  }
-else
-  {
-  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-xhttp.open("GET",dname,false);
-xhttp.send();
-return xhttp.responseXML;
+    alert(fichero);
 }

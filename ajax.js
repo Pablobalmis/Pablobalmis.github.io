@@ -9,7 +9,7 @@ function LoadLDocA(fichero, tipo)
         {
             if(tipo == "xml")
             {
-                return leerXML(http.responseXML);
+                leerXML(http.responseXML);
             }/*
             else
             {
