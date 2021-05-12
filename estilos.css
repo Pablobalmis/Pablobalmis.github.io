@@ -6,3 +6,7 @@
 {
     display: table-row;
 }
+.columna
+{
+    display: table-column; 
+}
