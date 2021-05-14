@@ -23,7 +23,7 @@ function leerXML(fichero)
         tabla.innerHTML += "<div class='fila'> <div class='columna'>" + libros[i].querySelector("ISBN").textContent + " " + "</div>" + "<div class='columna'>" + libros[i].querySelector("titulo").textContent + " " + "</div>" + "<div class='columna'>" + libros[i].querySelector("nivelProfundidad").textContent + " " + "</div>" + "<div class='columna'>" + libros[i].querySelector("autor").textContent + " " + "</div>" + "<div class='columna'>" + libros[i].querySelector("editorial").textContent + " " + "</div>" + "<div class='columna'>" + libros[i].querySelector("fechaPublicacion").textContent + " " + "</div>" + "<div class='columna'>" + libros[i].querySelector("paginaWeb").textContent + " " + "</div>";
         
         if(libroMasBarato == +libros[i].querySelector("precio").textContent)
-        tabla.innerHTML += "<div class='columna barato'>" +  libros[i].querySelector("precio").textContent + "</div>" + "</div>";
+        tabla.innerHTML += "<div class='columna-barato'>" +  libros[i].querySelector("precio").textContent + "</div>" + "</div>";
         else
          tabla.innerHTML += "<div class='columna'>" +  libros[i].querySelector("precio").textContent + "</div>" + "</div>";
         

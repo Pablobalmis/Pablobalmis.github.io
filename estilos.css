@@ -10,3 +10,8 @@
 {
     display: table-cell; 
 }
+.columna-barato
+{
+    display: table-cell;
+    background-color: lightblue;
+}
