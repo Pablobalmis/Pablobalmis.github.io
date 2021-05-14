@@ -1,7 +1,7 @@
 LoadLDocA("libros.xml", "xml");
 function PrecioMenor(libros)
 {
-    let menor = 0;
+    let menor = Math.max;
     let libroMasBarato;
     for(let i = 0; i < libros.length; i++)
     {
