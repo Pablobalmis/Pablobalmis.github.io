@@ -11,8 +11,12 @@ main
 {
     text-align: left;
     background-color: blue;
+    width: 50vw;
+    height: 50vh;
 }
 .derecha
 {
     text-align: right;
+    width: 50vw;
+    height: 50vh;
 }
