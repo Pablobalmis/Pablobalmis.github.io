@@ -17,6 +17,7 @@ main
     align-items: center;
     height: 100vh;
     max-width: 30vw;
+    padding: 25px;
 }
 .izquierda
 {
