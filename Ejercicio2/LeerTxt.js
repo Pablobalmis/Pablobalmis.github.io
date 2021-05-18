@@ -6,8 +6,7 @@ function leerTXT(fichero)
     let derecha = document.querySelector(".derecha");
     for(let i = 0; i < lineas.length; i++)
     {
-        setTimeout(function(){
-            if(i%2 == 0)
+        if(i%2 == 0)
         {
             izquierda.innerHTML += "<div class='mensaje'>" + lineas[i] + "</div> <br>";
         }
@@ -15,7 +14,5 @@ function leerTXT(fichero)
         {
             derecha.innerHTML += "<div class ='mensaje'>" + lineas[i] + "</div> <br>";
         }
-        },2000);
-        
     }
 }
