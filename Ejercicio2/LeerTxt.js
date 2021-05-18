@@ -9,11 +9,11 @@ function leerTXT(fichero)
     {
         if(i%2 == 0)
         {
-            izquierda.innerHTML += lineas[i] + "\n";
+            izquierda.innerHTML += "<div class='mensaje'>" + lineas[i] + "</div>";
         }
         else
         {
-            derecha.innerHTML +=lineas[i] + "\n";
+            derecha.innerHTML += "<div class ='mensaje'>" + lineas[i] + "</div>";
         }
     }
 }
