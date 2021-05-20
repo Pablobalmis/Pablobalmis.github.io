@@ -8,15 +8,19 @@ function leerTXT(fichero)
     let lineas = fichero.split("/");
     let izquierda = document.querySelector(".izquierda");
     let derecha = document.querySelector(".derecha");
+    let filaIzq = "";
+    let filaDcha = "";
     for(let i = 0; i < lineas.length; i++)
     {
         if(i%2 == 0)
         {
-            izquierda.innerHTML = "<div class='mensaje'>" + lineas[i] + "</div>";
+            filaIzq += "<div class='mensaje'>" + lineas[i] + "</div>";
         }
         else
         {
-            derecha.innerHTML = "<div class ='mensaje'>" + lineas[i] + "</div>";
+            filaIzq += "<div class ='mensaje'>" + lineas[i] + "</div>";
         }
+        izquierda.innerHTML = filaIzq;
+        derecha.innerHTML = filaDcha;
     }
 }
