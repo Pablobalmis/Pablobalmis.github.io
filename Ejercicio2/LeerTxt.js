@@ -18,7 +18,7 @@ function leerTXT(fichero)
         }
         else
         {
-            filaIzq += "<div class ='mensaje'>" + lineas[i] + "</div>";
+            filaDcha += "<div class ='mensaje'>" + lineas[i] + "</div>";
         }
         izquierda.innerHTML = filaIzq;
         derecha.innerHTML = filaDcha;
