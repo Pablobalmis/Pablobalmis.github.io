@@ -1,4 +1,8 @@
-LoadLDocA("Mensajes.txt", "txt");
+setInterval(CargarFichero,5000);
+function CargarFichero()
+{
+    LoadLDocA("Mensajes.txt", "txt");
+}
 function leerTXT(fichero)
 {
     let lineas = fichero.split("/");
