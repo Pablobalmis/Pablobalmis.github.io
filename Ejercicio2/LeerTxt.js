@@ -12,11 +12,11 @@ function leerTXT(fichero)
     {
         if(i%2 == 0)
         {
-            izquierda.innerHTML += "<div class='mensaje'>" + lineas[i] + "</div>";
+            izquierda.innerHTML = "<div class='mensaje'>" + lineas[i] + "</div>";
         }
         else
         {
-            derecha.innerHTML += "<div class ='mensaje'>" + lineas[i] + "</div>";
+            derecha.innerHTML = "<div class ='mensaje'>" + lineas[i] + "</div>";
         }
     }
 }
